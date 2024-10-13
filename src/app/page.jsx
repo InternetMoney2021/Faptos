@@ -14,6 +14,9 @@ export default function Home() {
       <div className=" flex p-20 justify-center max-w-[1024px] flex-col">
         <Navbar />
         <Hero />
+        <h1 className="text-5xl font-mono font-bold text-center">
+          Father of APTOS BLOCKCHAIN
+        </h1>
         <ContractAddress />
         <About />
         <Tokenomics />
