@@ -14,8 +14,9 @@ const Hero = () => {
         alt="Father of Aptos" // Always include the alt text for accessibility
         className="animated-glow bg-black bg-opacity-50 rounded-3xl p-14"
       />
-      <div className="p-10 flex place-items-center">
-        <h1 className="font-bold text-4xl font-mono">
+      <div className="p-10 flex place-items-center flex-col gap-20">
+        <h1 className="text-7xl font-bold font-mono">$FAPTOS</h1>
+        <h1 className="font-bold text-2xl font-mono">
           “The hair changes, but the soul never.”
         </h1>
       </div>
