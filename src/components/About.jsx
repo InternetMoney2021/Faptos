@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="border-slate-900 border-opacity-35 p-5 mt-10">
       <h1 className="text-4xl font-bold font-mono text-center">About</h1>
-      <p className="mt-4 p-10 font-mono font-extrabold bg-gray-900 rounded-3xl bg-opacity-50">
+      <p className="mt-4 p-10 font-mono font-extrabold bg-gray-900 rounded-3xl bg-opacity-50 max-sm:p-4">
         $FAPTOS isn’t just a coin—it’s a movement fueled by the Father of Aptos
         and his iconic long hair. Built on the APTOS blockchain, we’re combining
         meme culture and a strong community to create something legendary. Join

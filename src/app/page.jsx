@@ -10,11 +10,11 @@ import Chart from "@/components/Chart";
 
 export default function Home() {
   return (
-    <main className="flex justify-center bg-cover bg-center bg-[url('/bg5.png')]">
+    <main className="flex justify-center bg-cover bg-center bg-[url('/bg5.png')] overflow-hidden">
       <div className=" flex p-20 justify-center max-w-[1024px] flex-col">
         <Navbar />
         <Hero />
-        <h1 className="text-5xl font-mono font-bold text-center">
+        <h1 className="text-5xl font-mono font-bold text-center max-lg:text-3xl">
           Father of APTOS BLOCKCHAIN
         </h1>
         <ContractAddress />

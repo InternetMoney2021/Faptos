@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="flex mt-20 mb-20  border-slate-900 border-opacity-35 backdrop-blur-sm"
+      className="flex mt-20 mb-20  border-slate-900 border-opacity-35 backdrop-blur-sm max-lg:flex-col justify-center items-center"
       id="Home"
     >
       <Image
@@ -15,7 +15,9 @@ const Hero = () => {
         className="animated-glow bg-black bg-opacity-50 rounded-3xl p-14"
       />
       <div className="p-10 flex place-items-center flex-col gap-20">
-        <h1 className="text-7xl font-bold font-mono">$FAPTOS</h1>
+        <h1 className="text-7xl font-bold font-mono max-sm:text-3xl">
+          $FAPTOS
+        </h1>
         <h1 className="font-bold text-2xl font-mono">
           “The hair changes, but the soul never.”
         </h1>
