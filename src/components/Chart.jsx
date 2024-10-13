@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Chart = () => {
@@ -7,9 +8,16 @@ const Chart = () => {
       id="Chart"
     >
       <h1 className="text-4xl font-bold font-mono text-center">Chart</h1>
-      <p className="mt-4 p-10 font-mono font-extrabold bg-gray-900 rounded-full bg-opacity-300 text-center max-md:p-4 max-md:text-sm break-words max-sm:max-w-[300px] overflow-hidden">
-        https://dexscreener.com/aptos/liquidswapv0p5-10701
-      </p>
+      <Link
+        href="https://dexscreener.com/aptos/liquidswapv0p5-10701"
+        legacyBehavior
+      >
+        <a target="_blank" rel="noopener noreferrer">
+          <p className="mt-4 p-10 font-mono font-extrabold bg-gray-900 rounded-full bg-opacity-300 text-center max-md:p-4 max-md:text-sm break-words max-sm:max-w-[300px] overflow-hidden">
+            https://dexscreener.com/aptos/liquidswapv0p5-10701
+          </p>
+        </a>
+      </Link>
     </div>
   );
 };
