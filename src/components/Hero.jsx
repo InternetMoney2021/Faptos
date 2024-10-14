@@ -16,7 +16,7 @@ const Hero = () => {
       />
       <div className="p-10 flex place-items-center flex-col gap-20">
         <h1 className="text-7xl font-bold font-mono max-sm:text-3xl">
-          $FAPTOS
+          $faptOS
         </h1>
         <h1 className="font-bold text-2xl font-mono">
           “The hair changes, but the soul never.”
